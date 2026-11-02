@@ -1,0 +1,43 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 5%;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.language-switch {
+  display: flex;
+  gap: 6px;
+}
+
+.language-switch button {
+  border: 1px solid #ccc;
+  background: transparent;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.language-switch button.active {
+  background: #263449;
+  color: white;
+}

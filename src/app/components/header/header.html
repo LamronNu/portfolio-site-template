@@ -1,0 +1,26 @@
+
+<header class="header">
+<a class="logo" href="#home">PORTFOLIO</a>
+
+<nav>
+  <a href="#about">{{ nav.about }}</a>
+  <a href="#skills">{{ nav.skills }}</a>
+  <a href="#projects">{{ nav.projects }}</a>
+  <a href="#experience">{{ nav.experience }}</a>
+  <a href="#contacts">{{ nav.contacts }}</a>
+</nav>
+
+<div class="language-switch">
+  <button
+    [class.active]="lang === 'uk'"
+    (click)="langChange.emit('uk')">
+    UA
+  </button>
+
+  <button
+    [class.active]="lang === 'en'"
+    (click)="langChange.emit('en')">
+    EN
+  </button>
+</div>
+</header>
