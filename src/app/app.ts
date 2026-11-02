@@ -2,11 +2,12 @@
 import { Component, signal } from '@angular/core';
 import { HeaderComponent } from './components/header/header';
 import { CONTENT } from './data/content';
+import { BackToTopComponent } from './components/back-to-top/back-to-top';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent],
+  imports: [HeaderComponent, BackToTopComponent],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
