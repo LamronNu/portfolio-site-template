@@ -2,7 +2,7 @@
 import { Component, signal } from '@angular/core';
 import { HeaderComponent } from './components/header/header';
 import { CONTENT } from './data/content';
-import { BackToTopComponent } from './components/back-to-top/back-to-top';
+import { BackToTopComponent } from './components/back-to-top/back-to-top.component';
 
 @Component({
   selector: 'app-root',

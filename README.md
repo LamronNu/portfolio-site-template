@@ -39,6 +39,7 @@
 - Винесення демонстраційного контенту в окремий файл конфігурації для спрощення налаштування шаблону.
 - Розділення застосунку на Angular-компоненти.
 - Базове адаптивне оформлення сторінки.
+- Повторно використовуваний компонент для повернення до початку сторінки.
 
 Усі персональні дані та приклади контенту в шаблоні є демонстраційними й призначені для заміни.
 
@@ -109,6 +110,7 @@ The current implementation includes:
 - Demo content stored in a separate configuration file for easier customization.
 - Application structure organized into Angular components.
 - Basic responsive styling.
+- Reusable back-to-top component.
 
 All personal details and content examples are placeholders intended to be replaced.
 
